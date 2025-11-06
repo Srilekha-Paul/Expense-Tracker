@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  width: 400px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+/* .container:hover {
+  box-shadow: 0 15px 25px rgba(0,0,0,0.25);
+} */
+h2 {
+    margin-bottom: 20px;
+    color: #444;    
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #6a11cb;
+}
+
+button {
+  padding: 10px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.expense-list {
+  margin-top: 20px;
+  text-align: left;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.expense-item span {
+  font-size: 14px;
+}
+
+.total {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background: #e0e0ff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+/* .actions button:hover {
+  text-decoration: underline;
+} */
+
+.actions button.edit {
+  color: #0077ff;
+}
+/* .actions button.save {
+  color: #28a745;
+} */
+.actions button.delete {
+  color: #ff3c3c;
+}
+
+/* @media(max-width: 500px){
+  .container{
+    width: 90%;
+  }
+} */
