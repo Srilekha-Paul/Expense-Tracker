@@ -23,9 +23,9 @@ body {
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
-/* .container:hover {
+.container:hover {
   box-shadow: 0 15px 25px rgba(0,0,0,0.25);
-} */
+}
 h2 {
     margin-bottom: 20px;
     color: #444;    
@@ -101,22 +101,22 @@ button:hover {
   font-size: 14px;
   margin-left: 5px;
 }
-/* .actions button:hover {
+.actions button:hover {
   text-decoration: underline;
-} */
+}
 
 .actions button.edit {
   color: #0077ff;
 }
-/* .actions button.save {
+.actions button.save {
   color: #28a745;
-} */
+}
 .actions button.delete {
   color: #ff3c3c;
 }
 
-/* @media(max-width: 500px){
+@media(max-width: 500px){
   .container{
     width: 90%;
   }
-} */
+}

@@ -69,5 +69,6 @@ function editExpense(index) {
   renderExpenses();
 }
 
+
 // Initial render
 renderExpenses();
